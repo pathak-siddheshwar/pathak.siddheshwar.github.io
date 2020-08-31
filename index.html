@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Page</title>
+    <link rel="stylesheet" href="Responsive.css">
+    <link rel="icon" href="https://cdn.pixabay.com/photo/2018/05/07/17/41/gallery-3381283_960_720.png">
+    <script src="https://kit.fontawesome.com/3bcc43567b.js" crossorigin="anonymous"></script>
+</head>
+
+<body onresize="myFunction()">
+    <header>
+        <ul class="navbar" id="topnav">
+            <li class="navitem home"><a class="anchor special pad" href="#">Home</a><i id="button" class="fas fa-bars hamburger fa-2x special"></i></li>
+            <li class="navitem link"><a class="anchor" href="#">News</a></li>
+            <li class="navitem link"><a class="anchor" href="#">Contact</a></li>
+            <li class="navitem link dropdown" id="drop">
+                <a class="anchor" href="#">About</a>
+                <button class="dropdown-button"><i class="fas fa-caret-down" id="icon"></i></button>
+                <div class="dropdown-content">
+                    <a href="#" class="anchor_hover">Our Acheivments</a>
+                    <a href="#" class="anchor_hover">What's Special</a>
+                    <a href="#" class="anchor_hover">Our Creators</a>
+                </div>
+            </li>
+            <!-- <li class="navitem link hamburger"><i class="fas fa-bars hamburger fa-2x"></i></li> -->
+        </ul>
+    </header>
+    <div class="heading">
+        <i class="fas fa-images fa-2x jumbotron"></i>
+        <p class="jumbotron">IMAGE GALLERY</p>
+    </div>
+    <div class="image_grid">
+        <div class="grid_item"><img src="media/pic1.jpeg"></div>
+        <div class="grid_item"><img src="media/pic2.jpeg"></div>
+        <div class="grid_item"><img src="media/pic3.jpeg"></div>
+        <div class="grid_item"><img src="media/pic4.jpeg"></div>
+        <div class="grid_item"><img src="media/pic5.jpeg"></div>
+        <div class="grid_item"><img src="media/pic6.jpeg"></div>
+        <div class="grid_item"><img src="media/pic7.jpeg"></div>
+        <div class="grid_item"><img src="media/pic8.jpeg"></div>
+        <div class="grid_item"><img src="media/pic9.jpeg"></div>
+        <div class="grid_item"><img src="media/pic10.jpeg"></div>
+        <div class="grid_item"><img src="media/pic11.jpeg"></div>
+        <div class="grid_item"><img src="media/pic12.jpeg"></div>
+        <div class="grid_item"><img src="media/pic13.jpeg"></div>
+        <div class="grid_item"><img src="media/pic14.jpeg"></div>
+        <div class="grid_item"><img src="media/pic15.jpeg"></div>
+        <div class="grid_item"><img src="media/pic16.jpeg"></div>
+        <div class="grid_item"><img src="media/pic17.jpeg"></div>
+        <div class="grid_item"><img src="media/pic18.jpeg"></div>
+        <div class="grid_item"><img src="media/pic19.jpeg"></div>
+        <div class="grid_item"><img src="media/pic20.jpeg"></div>
+        <div class="grid_item"><img src="media/pic21.jpeg"></div>
+        <div class="grid_item"><img src="media/pic22.jpeg"></div>
+        <div class="grid_item"><img src="media/pic23.jpeg"></div>
+        <div class="grid_item"><img src="media/pic24.jpeg"></div>
+    </div>
+    <div class="footer">
+        <i class="fas fa-th-large fa-2x"></i>
+        <h2>Responsive Image Grid</h2>
+    </div>
+
+    <!--<footer>
+        
+        <h2>Responsive Image Grid</h2>
+        </footer> -->
+    <script src="Responsive.js"></script>
+</body>
+
+</html>
